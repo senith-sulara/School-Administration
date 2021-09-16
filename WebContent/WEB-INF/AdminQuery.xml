@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Querys>
+<!-- Get admin IDs Query -->
+	<query id="admin_ids">
+         <![CDATA[        
+            select a.adminID from admin as a
+        ]]>
+	</query>
+	
+			<!-- Get admin IDs Query -->
+	<query id="admin_login">
+         <![CDATA[        
+            select * from admin 
+            where userName = ? and password = ?
+        ]]>
+	</query>
+
+</Querys>

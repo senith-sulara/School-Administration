@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>ComMM</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <servlet-name>AddEventServlet</servlet-name>
+    <servlet-class>com.servlet.AddEventServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateEventServlet</servlet-name>
+    <servlet-class>com.servlet.UpdateEventServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteEventServlet</servlet-name>
+    <servlet-class>com.servlet.DeleteEventServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetEventServlet</servlet-name>
+    <servlet-class>com.servlet.GetEventServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ListEventServlet</servlet-name>
+    <servlet-class>com.servlet.ListEventServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <servlet-class>com.servlet.LoginServlet</servlet-class>
+  </servlet>
+ 
+  <servlet-mapping>
+    <servlet-name>AddEventServlet</servlet-name>
+    <url-pattern>/AddEvent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateEventServlet</servlet-name>
+    <url-pattern>/UpdateEvent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteEventServlet</servlet-name>
+    <url-pattern>/DeleteEvent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetEventServlet</servlet-name>
+    <url-pattern>/GetEvent</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>ListEventServlet</servlet-name>
+    <url-pattern>/ListEvent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <url-pattern>/AdminLogin</url-pattern>
+  </servlet-mapping>
+</web-app>

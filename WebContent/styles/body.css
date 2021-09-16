@@ -1,0 +1,22 @@
+@charset "ISO-8859-1";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: no-repeat;
+	margin:0;
+    padding: 0;
+    height:100%;
+    width: 100%;
+	background-size:cover;
+	background-position:center;
+	background-image:url("../image/az.jpg");
+}
+
+.e1{
+    display:grid;
+    grid-auto-rows: 90% 10%;
+}

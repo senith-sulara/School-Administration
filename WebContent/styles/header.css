@@ -1,0 +1,156 @@
+@charset "ISO-8859-1";
+
+.a1{
+    margin-top: 2;
+    display: grid;
+    grid-auto-rows: 25vh 23vh 150vh 30vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.b1{
+    
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.bb1{
+	opacity:1;
+}
+
+.im1{
+    height: 22vh;
+    margin-top: 1.4vh;
+    margin-left: 4%;
+}
+
+.bb2{
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.bb2up{
+    background-color: #0010;
+    margin-right: 30px;
+    
+}
+
+.bt1{
+    float: right;
+    margin-top:-50px; 
+    margin-right: 5px;
+}
+
+.btn1{
+    line-height:1em;
+    color: #ffffff;
+    background: none;
+    border:none;
+    padding: 2px 7px;
+    font-size:20px;
+    font-family: sans-serif;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 0.5px;
+    overflow: hidden;
+}
+
+.btn1 a{
+    color:white;
+    text-decoration: none;
+}
+
+
+
+.btn1:hover{
+    background-color: white;
+	color:black;
+    border-radius: 3px;
+    font-size: 20px;
+    transition: 0.35s;
+}
+
+.btn1 a:hover{
+    color:black;
+}
+
+.bt2{
+    float: right;
+    margin-top:-50px;
+    margin-right: 120px; 
+}
+
+.btn2{
+    line-height:1em;
+    color: #ffffff;
+    background: none;
+    border:none;;
+    padding: 2px 7px;
+    font-size:20px;
+    font-family: sans-serif;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 0.5px;
+    overflow: hidden;
+}
+
+.btn2 a{
+    color:white;
+    text-decoration: none;
+}
+
+.btn2:hover {
+    background-color: white;
+	color:rgb(32, 32, 32);
+    border-radius: 3px;
+    font-size: 20px;
+    transition: 0.35s;
+}
+
+.btn2 a:hover{
+    color:black;
+}
+
+
+
+.bb2down{
+	margin-top:-50px;
+   
+}
+
+.bb2down ul{
+    margin:0px;
+    padding: 0px;
+    list-style: none;
+    
+}
+
+.bb2down ul li{
+    float: right;
+    width: 145px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 17px;
+    margin-right: 2px
+}
+
+.bb2down ul li a{
+    color: white;
+    opacity: .5;
+    text-decoration: none;
+    font-family: sans-serif;
+    display: block;
+}
+
+.bb2down ul li a:hover{
+    background-color: rgba(8, 6, 100, 0.644);
+    opacity: 1;
+}
+
+.bb2down ul li ul li{
+    display: none;
+}
+
+.bb2down ul li:hover ul li{
+    display: block;
+}

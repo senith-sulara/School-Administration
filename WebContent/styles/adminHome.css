@@ -1,0 +1,168 @@
+@charset "ISO-8859-1";
+body {
+    background-image: url(../../imgage/dark.jpg);
+    background-color: #cccccc; 
+    height: 500px; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+
+.main {
+    width: 70%;
+    height: 60%;
+    border-radius: 5px;
+    position: fixed;
+    margin-top: 70px; 
+    margin-bottom: 50px;
+    margin-left: 0;
+    padding: 7px;
+}
+
+
+.seg1 {
+    background-color: white;
+    width: 300px;
+    border-radius: 15px 50px;
+    position: fixed;
+    margin-top: 0;
+    margin-left: 300px;
+    padding: 7px;
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+    opacity: 0.6;
+    font-family: MerriweatherSans-Light;
+}
+
+.seg1:hover {
+    color: floralwhite;
+    background-color: #111821;
+    transition: all 0.45s;
+    border-radius: 20px;
+    opacity: 0.7;
+}
+
+.seg1 hr {
+    padding-bottom: 12px;
+}
+
+.seg1 i {
+    padding-left: 260px;
+    font-size: 30px;
+}
+
+
+.seg2 {
+    background-color: white;
+    width: 300px;
+    border-radius: 15px 50px;
+    position: fixed;
+    margin-top: 0;
+    margin-left: 800px;
+    padding: 7px;
+    padding-left: 20px;
+    font-family: MerriweatherSans-Light;
+    text-decoration: none;
+    color: black;
+    opacity: 0.6;
+}
+
+.seg2:hover {
+    color: floralwhite;
+    background-color: #111821;
+    transition: all 0.45s;
+    border-radius: 20px;
+    opacity: 0.7;
+}
+
+.seg2 hr {
+    padding-bottom: 12px;
+}
+
+.seg2 i {
+    padding-left: 260px;
+    font-size: 25px;
+}
+
+.seg3 {
+    background-color: white;
+    width: 300px;
+    border-radius: 15px 50px;
+    position: fixed;
+    margin-top: 250px; 
+    margin-left: 300px;
+    padding: 7px;
+    padding-left: 20px;
+    font-family: MerriweatherSans-Light;
+    text-decoration: none;
+    color: black;
+    opacity: 0.6;
+}
+
+.seg3:hover {
+    color: floralwhite;
+    background-color: #111821;
+    transition: all 0.45s;
+    border-radius: 20px;
+    opacity: 0.7;
+}
+
+.seg3 hr {
+    padding-bottom: 12px;
+}
+
+.seg3 i {
+    padding-left: 260px;
+    font-size: 25px;
+}
+
+.seg4 {
+    background-color: white;
+    width: 300px;
+    border-radius: 15px 50px;
+    position: fixed;
+    margin-top: 250px;
+    margin-left: 800px;
+    padding: 7px;
+    padding-left: 20px;
+    font-family: MerriweatherSans-Light;
+    text-decoration: none;
+    color: black;
+    opacity: 0.6;
+}
+
+.seg4:hover {
+    color: floralwhite;
+    background-color: #111821;
+    transition: all 0.45s;
+    border-radius: 20px;
+    opacity: 0.7;
+}
+
+.seg4 hr {
+    padding-bottom: 12px;
+}
+
+.seg4 i {
+    padding-left: 260px;
+    font-size: 25px;
+}
+
+.seg-div {
+    width:80%;
+    font-family:MerriweatherSans-Light;
+    font-size:11px;
+    float:left;
+}
+
+.img-div {
+    width:20%;
+    float:right;
+}
+
+.seg-img {
+    width: 40px;
+    height: 40px;
+    padding-right:0;
+}
